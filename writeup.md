@@ -22,8 +22,8 @@ The goals / steps of this project are the following:
 [image2]: output_images/1.camera_cal_Output/calibration11_out.jpg "Undistorted"
 [image3]: output_images/2.test_images_Output/straight_lines1_out.jpg	"straight_lines1_out"
 [image4]: output_images/2.test_images_Output/test1_out.jpg	"test3_out"
-[image5]: output_images/4.binary_threshold_Output/test3_out.jpg	"BinaryThresholded"
-[image6]: output_images/4.binary_threshold_Output/test5_out.jpg	"BinaryThresholded1"
+[image5]: output_images/4.binary_threshold_Output/test3_out.jpg	"BinaryThreshold"
+[image6]: output_images/4.binary_threshold_Output/test5_out.jpg	"BinaryThreshold1"
 [image7]: output_images/3.birdseyeview_Output/test5_out.jpg	"Bird's eye view"
 [image8]: output_images/5.color_lanes_Output/test5_out.jpg	"colour view"
 
@@ -165,11 +165,11 @@ Shown in example above.
 - Output for : **project_video.mp4**
 
 
-[![Watch the video](output_images/project_video_output_sample_img.png )](https://youtu.be/IXanFQSjAGU)
+[Project video output](https://github.com/sid-arora/CarND-Advanced-Lane-Lines/blob/master/output_videos/project_video_ouput.mp4)
 
 - Output for : **challenge_video.mp4**
 
-[![Watch the video](output_images/challenge_video_ouput_sample_img.png )](https://youtu.be/Axt0_GvmV7g)
+[Challenge result output](https://github.com/sid-arora/CarND-Advanced-Lane-Lines/blob/master/output_videos/challenge_video_ouput.mp4)
 
 ---
 
@@ -177,9 +177,9 @@ Shown in example above.
 
 #### 1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
-- The pipeline ( and hence the code ) developed this project worked very well in detecting the lane lines for the  [project_video.mp4](https://youtu.be/IXanFQSjAGU) video
+- The pipeline ( and hence the code ) developed this project worked very well in detecting the lane lines for the  [project_video.mp4](https://github.com/sid-arora/CarND-Advanced-Lane-Lines/blob/master/output_videos/project_video_ouput.mp4) video
 
-- Code worked fairly well with the [challenge_result.mp4](https://youtu.be/Axt0_GvmV7g) video,  sometimes losing the center in case of shadows.
+- Code worked fairly well with the [challenge_result.mp4](https://github.com/sid-arora/CarND-Advanced-Lane-Lines/blob/master/output_videos/challenge_video_ouput.mp4) video,  sometimes losing the center in case of shadows.
 
 - Code failed on the [harder_challenge_video.mp4](https://github.com/udacity/CarND-Advanced-Lane-Lines/blob/master/harder_challenge_video.mp4) in areas with steep turns and shadows.
 
